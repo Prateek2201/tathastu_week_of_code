@@ -1,0 +1,5 @@
+n = int(input('Enter size of tuple: '))
+print('Enter tuple elements separated by space: ',end='')
+tup = tuple(map(int, input().split()[:n]))
+ele = int(input('Enter element to count: '))
+print(tup.count(ele))
